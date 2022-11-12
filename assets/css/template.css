@@ -2,7 +2,7 @@
 .bg-f1 {
     background-image: url("../img/head-bg.png");
     width: 100vw;
-    height: 80vh;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -17,6 +17,7 @@
 }
 .container-head {
     display: flex;
+    height: 600px;
     flex-direction: column;
     justify-content: space-between;
 }
