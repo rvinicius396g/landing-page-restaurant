@@ -34,10 +34,14 @@
 .section-head1 {
     text-align: center;
 }
+.section-head2 {
+    min-width: 90vw ;
+}
 .head-logo-info {
     font-family: courier new,courier,monospace;
     color: #fff;
     letter-spacing: 3px;
+    line-height: 1.5;
 }
 .head-logo img {
     height: 125px;
@@ -51,11 +55,16 @@
 }
 
 .btnheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: raleway;
     color: #fff;
     background-color: rgba(240, 248, 255, 0.49);
     padding: 20px 80px;
     font-weight: 300; 
+    text-align: center;
 }
 .btn {
     background-color: #ACA9BB;
@@ -63,4 +72,9 @@
     text-transform: uppercase;
     padding: 5px 40px;
     margin: 5px;
+    text-decoration: none;
+    background-color: #C3C54B;
+    color: #F9EFE6;
+    border-radius: 5px;
+    font-weight: bolder;
 }
